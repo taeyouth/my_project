@@ -2883,3 +2883,168 @@
 2021-05-25 11:28:29,947 [INFO]  No improvement detected for 5 epochs compared to 1.6854137535448428 last error obtained: 1.6866031068342704, stopping here
 2021-05-25 11:28:29,947 [INFO]  
 ========== done (114.88796925544739 s) fit model
+2021-05-25 13:53:41,153 [INFO]  CategoricalEncoder for column occyp_type                                found only 94 occurrences of value Private service staff
+2021-05-25 13:53:41,154 [INFO]  CategoricalEncoder for column occyp_type                                found only 49 occurrences of value Secretaries
+2021-05-25 13:53:41,154 [INFO]  CategoricalEncoder for column occyp_type                                found only 45 occurrences of value Waiters/barmen staff
+2021-05-25 13:53:41,154 [INFO]  CategoricalEncoder for column occyp_type                                found only 41 occurrences of value Low-skill Laborers
+2021-05-25 13:53:41,154 [INFO]  CategoricalEncoder for column occyp_type                                found only 17 occurrences of value HR staff
+2021-05-25 13:53:41,154 [INFO]  CategoricalEncoder for column occyp_type                                found only 16 occurrences of value IT staff
+2021-05-25 13:53:41,154 [INFO]  CategoricalEncoder for column occyp_type                                found only 13 occurrences of value Realty agents
+2021-05-25 13:53:41,473 [INFO]  
+========== start: fit model
+2021-05-25 13:53:41,473 [WARNING]  Already bound, ignoring bind()
+2021-05-25 13:53:49,287 [INFO]  Epoch[0] Batch [0-241]	Speed: 496.21 samples/sec	cross-entropy=1.792409	occyp_type-accuracy=0.401601
+2021-05-25 13:53:56,805 [INFO]  Epoch[0] Train-cross-entropy=1.732599
+2021-05-25 13:53:56,805 [INFO]  Epoch[0] Train-occyp_type-accuracy=0.406705
+2021-05-25 13:53:56,805 [INFO]  Epoch[0] Time cost=15.331
+2021-05-25 13:53:56,810 [INFO]  Saved checkpoint to "imputer_model\model-0000.params"
+2021-05-25 13:53:57,663 [INFO]  Epoch[0] Validation-cross-entropy=1.712234
+2021-05-25 13:53:57,663 [INFO]  Epoch[0] Validation-occyp_type-accuracy=0.436343
+2021-05-25 13:54:05,252 [INFO]  Epoch[1] Batch [0-241]	Speed: 510.21 samples/sec	cross-entropy=1.679070	occyp_type-accuracy=0.417614
+2021-05-25 13:54:12,753 [INFO]  Epoch[1] Train-cross-entropy=1.663137
+2021-05-25 13:54:12,753 [INFO]  Epoch[1] Train-occyp_type-accuracy=0.416450
+2021-05-25 13:54:12,753 [INFO]  Epoch[1] Time cost=15.091
+2021-05-25 13:54:12,757 [INFO]  Saved checkpoint to "imputer_model\model-0001.params"
+2021-05-25 13:54:13,606 [INFO]  Epoch[1] Validation-cross-entropy=1.702767
+2021-05-25 13:54:13,606 [INFO]  Epoch[1] Validation-occyp_type-accuracy=0.432870
+2021-05-25 13:54:21,203 [INFO]  Epoch[2] Batch [0-241]	Speed: 509.69 samples/sec	cross-entropy=1.669732	occyp_type-accuracy=0.420455
+2021-05-25 13:54:28,736 [INFO]  Epoch[2] Train-cross-entropy=1.655126
+2021-05-25 13:54:28,736 [INFO]  Epoch[2] Train-occyp_type-accuracy=0.417490
+2021-05-25 13:54:28,736 [INFO]  Epoch[2] Time cost=15.130
+2021-05-25 13:54:28,741 [INFO]  Saved checkpoint to "imputer_model\model-0002.params"
+2021-05-25 13:54:29,592 [INFO]  Epoch[2] Validation-cross-entropy=1.698037
+2021-05-25 13:54:29,592 [INFO]  Epoch[2] Validation-occyp_type-accuracy=0.431713
+2021-05-25 13:54:37,183 [INFO]  Epoch[3] Batch [0-241]	Speed: 510.07 samples/sec	cross-entropy=1.665019	occyp_type-accuracy=0.419680
+2021-05-25 13:54:44,668 [INFO]  Epoch[3] Train-cross-entropy=1.650776
+2021-05-25 13:54:44,668 [INFO]  Epoch[3] Train-occyp_type-accuracy=0.418009
+2021-05-25 13:54:44,668 [INFO]  Epoch[3] Time cost=15.075
+2021-05-25 13:54:44,673 [INFO]  Saved checkpoint to "imputer_model\model-0003.params"
+2021-05-25 13:54:45,520 [INFO]  Epoch[3] Validation-cross-entropy=1.694952
+2021-05-25 13:54:45,520 [INFO]  Epoch[3] Validation-occyp_type-accuracy=0.428241
+2021-05-25 13:54:53,121 [INFO]  Epoch[4] Batch [0-241]	Speed: 509.46 samples/sec	cross-entropy=1.661417	occyp_type-accuracy=0.419163
+2021-05-25 13:55:00,608 [INFO]  Epoch[4] Train-cross-entropy=1.647473
+2021-05-25 13:55:00,608 [INFO]  Epoch[4] Train-occyp_type-accuracy=0.417490
+2021-05-25 13:55:00,608 [INFO]  Epoch[4] Time cost=15.087
+2021-05-25 13:55:00,613 [INFO]  Saved checkpoint to "imputer_model\model-0004.params"
+2021-05-25 13:55:01,458 [INFO]  Epoch[4] Validation-cross-entropy=1.693004
+2021-05-25 13:55:01,459 [INFO]  Epoch[4] Validation-occyp_type-accuracy=0.428241
+2021-05-25 13:55:09,053 [INFO]  Epoch[5] Batch [0-241]	Speed: 509.97 samples/sec	cross-entropy=1.658523	occyp_type-accuracy=0.419163
+2021-05-25 13:55:16,544 [INFO]  Epoch[5] Train-cross-entropy=1.644757
+2021-05-25 13:55:16,544 [INFO]  Epoch[5] Train-occyp_type-accuracy=0.417879
+2021-05-25 13:55:16,544 [INFO]  Epoch[5] Time cost=15.085
+2021-05-25 13:55:16,548 [INFO]  Saved checkpoint to "imputer_model\model-0005.params"
+2021-05-25 13:55:17,403 [INFO]  Epoch[5] Validation-cross-entropy=1.691636
+2021-05-25 13:55:17,403 [INFO]  Epoch[5] Validation-occyp_type-accuracy=0.428241
+2021-05-25 13:55:25,000 [INFO]  Epoch[6] Batch [0-241]	Speed: 509.59 samples/sec	cross-entropy=1.656151	occyp_type-accuracy=0.418647
+2021-05-25 13:55:32,488 [INFO]  Epoch[6] Train-cross-entropy=1.642497
+2021-05-25 13:55:32,488 [INFO]  Epoch[6] Train-occyp_type-accuracy=0.418009
+2021-05-25 13:55:32,488 [INFO]  Epoch[6] Time cost=15.086
+2021-05-25 13:55:32,492 [INFO]  Saved checkpoint to "imputer_model\model-0006.params"
+2021-05-25 13:55:33,343 [INFO]  Epoch[6] Validation-cross-entropy=1.691158
+2021-05-25 13:55:33,343 [INFO]  Epoch[6] Validation-occyp_type-accuracy=0.429398
+2021-05-25 13:55:40,940 [INFO]  Epoch[7] Batch [0-241]	Speed: 509.66 samples/sec	cross-entropy=1.654205	occyp_type-accuracy=0.418388
+2021-05-25 13:55:48,431 [INFO]  Epoch[7] Train-cross-entropy=1.640586
+2021-05-25 13:55:48,431 [INFO]  Epoch[7] Train-occyp_type-accuracy=0.418009
+2021-05-25 13:55:48,431 [INFO]  Epoch[7] Time cost=15.087
+2021-05-25 13:55:48,436 [INFO]  Saved checkpoint to "imputer_model\model-0007.params"
+2021-05-25 13:55:49,286 [INFO]  Epoch[7] Validation-cross-entropy=1.690489
+2021-05-25 13:55:49,287 [INFO]  Epoch[7] Validation-occyp_type-accuracy=0.429398
+2021-05-25 13:55:56,886 [INFO]  Epoch[8] Batch [0-241]	Speed: 509.50 samples/sec	cross-entropy=1.652587	occyp_type-accuracy=0.418647
+2021-05-25 13:56:04,425 [INFO]  Epoch[8] Train-cross-entropy=1.638883
+2021-05-25 13:56:04,425 [INFO]  Epoch[8] Train-occyp_type-accuracy=0.417620
+2021-05-25 13:56:04,425 [INFO]  Epoch[8] Time cost=15.137
+2021-05-25 13:56:04,429 [INFO]  Saved checkpoint to "imputer_model\model-0008.params"
+2021-05-25 13:56:05,280 [INFO]  Epoch[8] Validation-cross-entropy=1.689252
+2021-05-25 13:56:05,280 [INFO]  Epoch[8] Validation-occyp_type-accuracy=0.428241
+2021-05-25 13:56:12,878 [INFO]  Epoch[9] Batch [0-241]	Speed: 509.59 samples/sec	cross-entropy=1.651007	occyp_type-accuracy=0.419163
+2021-05-25 13:56:20,377 [INFO]  Epoch[9] Train-cross-entropy=1.637142
+2021-05-25 13:56:20,377 [INFO]  Epoch[9] Train-occyp_type-accuracy=0.417620
+2021-05-25 13:56:20,377 [INFO]  Epoch[9] Time cost=15.097
+2021-05-25 13:56:20,381 [INFO]  Saved checkpoint to "imputer_model\model-0009.params"
+2021-05-25 13:56:21,236 [INFO]  Epoch[9] Validation-cross-entropy=1.690058
+2021-05-25 13:56:21,236 [INFO]  Epoch[9] Validation-occyp_type-accuracy=0.423611
+2021-05-25 13:56:28,842 [INFO]  Epoch[10] Batch [0-241]	Speed: 509.09 samples/sec	cross-entropy=1.649829	occyp_type-accuracy=0.418905
+2021-05-25 13:56:36,348 [INFO]  Epoch[10] Train-cross-entropy=1.635822
+2021-05-25 13:56:36,349 [INFO]  Epoch[10] Train-occyp_type-accuracy=0.417749
+2021-05-25 13:56:36,349 [INFO]  Epoch[10] Time cost=15.112
+2021-05-25 13:56:36,353 [INFO]  Saved checkpoint to "imputer_model\model-0010.params"
+2021-05-25 13:56:37,210 [INFO]  Epoch[10] Validation-cross-entropy=1.688680
+2021-05-25 13:56:37,210 [INFO]  Epoch[10] Validation-occyp_type-accuracy=0.423611
+2021-05-25 13:56:44,793 [INFO]  Epoch[11] Batch [0-241]	Speed: 510.58 samples/sec	cross-entropy=1.648477	occyp_type-accuracy=0.418905
+2021-05-25 13:56:52,301 [INFO]  Epoch[11] Train-cross-entropy=1.634414
+2021-05-25 13:56:52,301 [INFO]  Epoch[11] Train-occyp_type-accuracy=0.417490
+2021-05-25 13:56:52,301 [INFO]  Epoch[11] Time cost=15.091
+2021-05-25 13:56:52,306 [INFO]  Saved checkpoint to "imputer_model\model-0011.params"
+2021-05-25 13:56:53,165 [INFO]  Epoch[11] Validation-cross-entropy=1.688020
+2021-05-25 13:56:53,166 [INFO]  Epoch[11] Validation-occyp_type-accuracy=0.422454
+2021-05-25 13:57:00,751 [INFO]  Epoch[12] Batch [0-241]	Speed: 510.44 samples/sec	cross-entropy=1.647254	occyp_type-accuracy=0.419680
+2021-05-25 13:57:08,251 [INFO]  Epoch[12] Train-cross-entropy=1.633114
+2021-05-25 13:57:08,251 [INFO]  Epoch[12] Train-occyp_type-accuracy=0.418269
+2021-05-25 13:57:08,251 [INFO]  Epoch[12] Time cost=15.085
+2021-05-25 13:57:08,256 [INFO]  Saved checkpoint to "imputer_model\model-0012.params"
+2021-05-25 13:57:09,111 [INFO]  Epoch[12] Validation-cross-entropy=1.688895
+2021-05-25 13:57:09,111 [INFO]  Epoch[12] Validation-occyp_type-accuracy=0.422454
+2021-05-25 13:57:16,707 [INFO]  Epoch[13] Batch [0-241]	Speed: 509.61 samples/sec	cross-entropy=1.646164	occyp_type-accuracy=0.420196
+2021-05-25 13:57:24,212 [INFO]  Epoch[13] Train-cross-entropy=1.632080
+2021-05-25 13:57:24,212 [INFO]  Epoch[13] Train-occyp_type-accuracy=0.418789
+2021-05-25 13:57:24,212 [INFO]  Epoch[13] Time cost=15.102
+2021-05-25 13:57:24,216 [INFO]  Saved checkpoint to "imputer_model\model-0013.params"
+2021-05-25 13:57:25,076 [INFO]  Epoch[13] Validation-cross-entropy=1.688326
+2021-05-25 13:57:25,076 [INFO]  Epoch[13] Validation-occyp_type-accuracy=0.424769
+2021-05-25 13:57:32,678 [INFO]  Epoch[14] Batch [0-241]	Speed: 509.36 samples/sec	cross-entropy=1.645293	occyp_type-accuracy=0.419938
+2021-05-25 13:57:40,180 [INFO]  Epoch[14] Train-cross-entropy=1.631150
+2021-05-25 13:57:40,180 [INFO]  Epoch[14] Train-occyp_type-accuracy=0.419179
+2021-05-25 13:57:40,180 [INFO]  Epoch[14] Time cost=15.104
+2021-05-25 13:57:40,185 [INFO]  Saved checkpoint to "imputer_model\model-0014.params"
+2021-05-25 13:57:41,040 [INFO]  Epoch[14] Validation-cross-entropy=1.687309
+2021-05-25 13:57:41,041 [INFO]  Epoch[14] Validation-occyp_type-accuracy=0.425926
+2021-05-25 13:57:48,644 [INFO]  Epoch[15] Batch [0-241]	Speed: 509.30 samples/sec	cross-entropy=1.644447	occyp_type-accuracy=0.419421
+2021-05-25 13:57:56,155 [INFO]  Epoch[15] Train-cross-entropy=1.630365
+2021-05-25 13:57:56,155 [INFO]  Epoch[15] Train-occyp_type-accuracy=0.418269
+2021-05-25 13:57:56,155 [INFO]  Epoch[15] Time cost=15.113
+2021-05-25 13:57:56,159 [INFO]  Saved checkpoint to "imputer_model\model-0015.params"
+2021-05-25 13:57:57,022 [INFO]  Epoch[15] Validation-cross-entropy=1.686847
+2021-05-25 13:57:57,022 [INFO]  Epoch[15] Validation-occyp_type-accuracy=0.424769
+2021-05-25 13:58:04,693 [INFO]  Epoch[16] Batch [0-241]	Speed: 504.75 samples/sec	cross-entropy=1.643519	occyp_type-accuracy=0.421746
+2021-05-25 13:58:12,209 [INFO]  Epoch[16] Train-cross-entropy=1.629263
+2021-05-25 13:58:12,209 [INFO]  Epoch[16] Train-occyp_type-accuracy=0.419309
+2021-05-25 13:58:12,209 [INFO]  Epoch[16] Time cost=15.187
+2021-05-25 13:58:12,213 [INFO]  Saved checkpoint to "imputer_model\model-0016.params"
+2021-05-25 13:58:13,079 [INFO]  Epoch[16] Validation-cross-entropy=1.686549
+2021-05-25 13:58:13,080 [INFO]  Epoch[16] Validation-occyp_type-accuracy=0.424769
+2021-05-25 13:58:20,692 [INFO]  Epoch[17] Batch [0-241]	Speed: 508.62 samples/sec	cross-entropy=1.642812	occyp_type-accuracy=0.420713
+2021-05-25 13:58:28,212 [INFO]  Epoch[17] Train-cross-entropy=1.628336
+2021-05-25 13:58:28,212 [INFO]  Epoch[17] Train-occyp_type-accuracy=0.418789
+2021-05-25 13:58:28,212 [INFO]  Epoch[17] Time cost=15.132
+2021-05-25 13:58:28,217 [INFO]  Saved checkpoint to "imputer_model\model-0017.params"
+2021-05-25 13:58:29,077 [INFO]  Epoch[17] Validation-cross-entropy=1.686385
+2021-05-25 13:58:29,077 [INFO]  Epoch[17] Validation-occyp_type-accuracy=0.424769
+2021-05-25 13:58:36,675 [INFO]  Epoch[18] Batch [0-241]	Speed: 509.60 samples/sec	cross-entropy=1.642285	occyp_type-accuracy=0.421229
+2021-05-25 13:58:44,181 [INFO]  Epoch[18] Train-cross-entropy=1.627651
+2021-05-25 13:58:44,181 [INFO]  Epoch[18] Train-occyp_type-accuracy=0.419179
+2021-05-25 13:58:44,181 [INFO]  Epoch[18] Time cost=15.105
+2021-05-25 13:58:44,186 [INFO]  Saved checkpoint to "imputer_model\model-0018.params"
+2021-05-25 13:58:45,042 [INFO]  Epoch[18] Validation-cross-entropy=1.687111
+2021-05-25 13:58:45,042 [INFO]  Epoch[18] Validation-occyp_type-accuracy=0.423611
+2021-05-25 13:58:52,645 [INFO]  Epoch[19] Batch [0-241]	Speed: 509.35 samples/sec	cross-entropy=1.641430	occyp_type-accuracy=0.420713
+2021-05-25 13:59:00,157 [INFO]  Epoch[19] Train-cross-entropy=1.626749
+2021-05-25 13:59:00,157 [INFO]  Epoch[19] Train-occyp_type-accuracy=0.418789
+2021-05-25 13:59:00,157 [INFO]  Epoch[19] Time cost=15.115
+2021-05-25 13:59:00,161 [INFO]  Saved checkpoint to "imputer_model\model-0019.params"
+2021-05-25 13:59:01,027 [INFO]  Epoch[19] Validation-cross-entropy=1.687297
+2021-05-25 13:59:01,027 [INFO]  Epoch[19] Validation-occyp_type-accuracy=0.422454
+2021-05-25 13:59:08,628 [INFO]  Epoch[20] Batch [0-241]	Speed: 509.44 samples/sec	cross-entropy=1.640921	occyp_type-accuracy=0.422004
+2021-05-25 13:59:16,136 [INFO]  Epoch[20] Train-cross-entropy=1.626072
+2021-05-25 13:59:16,137 [INFO]  Epoch[20] Train-occyp_type-accuracy=0.420088
+2021-05-25 13:59:16,137 [INFO]  Epoch[20] Time cost=15.109
+2021-05-25 13:59:16,141 [INFO]  Saved checkpoint to "imputer_model\model-0020.params"
+2021-05-25 13:59:16,999 [INFO]  Epoch[20] Validation-cross-entropy=1.687022
+2021-05-25 13:59:17,000 [INFO]  Epoch[20] Validation-occyp_type-accuracy=0.423611
+2021-05-25 13:59:24,599 [INFO]  Epoch[21] Batch [0-241]	Speed: 509.76 samples/sec	cross-entropy=1.640227	occyp_type-accuracy=0.422262
+2021-05-25 13:59:32,104 [INFO]  Epoch[21] Train-cross-entropy=1.625326
+2021-05-25 13:59:32,104 [INFO]  Epoch[21] Train-occyp_type-accuracy=0.419439
+2021-05-25 13:59:32,104 [INFO]  Epoch[21] Time cost=15.103
+2021-05-25 13:59:32,108 [INFO]  Saved checkpoint to "imputer_model\model-0021.params"
+2021-05-25 13:59:32,974 [INFO]  No improvement detected for 5 epochs compared to 1.6865490586669356 last error obtained: 1.6873980319058453, stopping here
+2021-05-25 13:59:32,974 [INFO]  
+========== done (351.5023036003113 s) fit model
