@@ -47,19 +47,19 @@
     {
       "op": "null", 
       "name": "label_occyp_type_weight", 
-      "attrs": {"num_hidden": "19"}, 
+      "attrs": {"num_hidden": "20"}, 
       "inputs": []
     }, 
     {
       "op": "null", 
       "name": "label_occyp_type_bias", 
-      "attrs": {"num_hidden": "19"}, 
+      "attrs": {"num_hidden": "20"}, 
       "inputs": []
     }, 
     {
       "op": "FullyConnected", 
       "name": "label_occyp_type", 
-      "attrs": {"num_hidden": "19"}, 
+      "attrs": {"num_hidden": "20"}, 
       "inputs": [[6, 0, 0], [7, 0, 0], [8, 0, 0]]
     }, 
     {
@@ -81,7 +81,7 @@
     {
       "op": "_plus_scalar", 
       "name": "_plusscalar3", 
-      "attrs": {"scalar": "19"}, 
+      "attrs": {"scalar": "20"}, 
       "inputs": [[12, 0, 0]]
     }, 
     {
