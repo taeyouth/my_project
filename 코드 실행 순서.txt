@@ -1,0 +1,24 @@
+--------------------
+|  코드 실행 순서  |
+--------------------
+
+1. 과속방지턱 / 카카오 데이터 2개 업로드
+ - '18_외부.오산시_과속방지턱표준데이터.csv'
+ - '36_재생산.academy_KAKAO_api.csv'
+ - 첨부한 외부데이터 및 재생산데이터를 위의 이름으로 업로드
+
+2. '데이터 전처리 코드(1)' 실행
+ - osan.geojson / syn.geojson이 저장됨
+ - 추후 분석에서는 진행했던 분석과 동일한 결과를 얻기 위해 추가로 첨부한 데이터로 이후 과정 실행
+    * 첨부한 데이터 : osan_dataset.geojson / syn_dataset.geojson
+    * osan_dataset.geojson / syn_dataset.geojson은 분석 당시 '데이터 전처리 코드(1)' 실행 결과 저장된 데이터
+ - osan.geojson 대신 osan_dataset.geojson 사용
+ - syn.geojson 대신 syn_dataset.geojson 사용
+
+3. 첨부한 osan_dataset.geojson / syn_dataset.geojson 파일을 다음과 같은 이름으로 업로드
+ - 'osan_dataset.geojson'
+ - 'syn_dataset.geojson'
+
+4. '분석-공간회귀분석(2)' 코드 실행
+
+5. '분석-머신러닝(3)' 코드 실행
